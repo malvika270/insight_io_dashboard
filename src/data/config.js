@@ -45,11 +45,13 @@ export const MODES = ['AUTO', 'MANUAL']
 export const VIEWS = {
   CAMERA: 'camera',
   MAP: 'map',
+  CLOUD: 'cloud',
 }
 
 export const VIEW_LABELS = {
   [VIEWS.CAMERA]: 'Camera View',
   [VIEWS.MAP]: 'Map View',
+  [VIEWS.CLOUD]: '3D Point Cloud',
 }
 
 // ─── Sidebar Navigation ──────────────────────────────────────────────────────

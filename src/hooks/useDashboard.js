@@ -11,9 +11,12 @@ export function useDashboard() {
   const [isEmergency, setIsEmergency]   = useState(false)
 
   const toggleView = useCallback(() => {
-    setActiveView(v => v === VIEWS.CAMERA ? VIEWS.MAP : VIEWS.CAMERA)
+    setActiveView(v => {
+      if (v === VIEWS.CAMERA) return VIEWS.MAP
+      if (v === VIEWS.MAP) return VIEWS.CLOUD
+      return VIEWS.CAMERA
+    })
   }, [])
-
   const handleDpad = useCallback((direction) => {
     if (isPaused || isEmergency) return
     const step = 2
