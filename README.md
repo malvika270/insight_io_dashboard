@@ -1,5 +1,12 @@
 # Insight.IO
 
+**Name:** Malvika  
+**Email:** malvikaa27@gmail.com  
+**Contact:** +91 8076618092
+
+---
+
+
 A robot operations dashboard built for the ERIC Robotics internship assignment. The goal was to faithfully recreate the Insight.IO UI from a provided demo — a dark-themed, full-bleed dashboard where camera, map, and LiDAR views sit beneath a floating control layer.
 
 ---
